@@ -1,27 +1,19 @@
 # site-bootstrap
 
+[Logo](./site-bootstrap-main/logo/Logo%20Magrinhos.png)
 
+[Index](./site-bootstrap-main/bootstrap.html)
 
-[Logo](../site-bootstrap-main/site-bootstrap-main/logo/)
+[Contatos](./site-bootstrap-main/contate-nos.html)
 
-[Icones](../site-bootstrap-main/site-bootstrap-main/Icones)
+[Historia](./site-bootstrap-main/historia.html)
 
-[Fonte](../site-bootstrap-main/site-bootstrap-main/Fontes)
-
-[Magrinhos-imagens](../site-bootstrap-main/site-bootstrap-main/Magrinhos)
-
-[Index](../site-bootstrap-main/site-bootstrap-main/bootstrap.html)
-
-[Contatos](../site-bootstrap-main/site-bootstrap-main/contate-nos.html)
-
-[Historia](../site-bootstrap-main/site-bootstrap-main/historia.html)
-
-[Equipe](../site-bootstrap-main/site-bootstrap-main/equipe.html)
+[Equipe](./site-bootstrap-main/equipe.html)
 
 [Laçamentos-2023](../site-bootstrap-main/site-bootstrap-main/lançamentos.html)
 
-[Produtos](../site-bootstrap-main/site-bootstrap-main/produtos.html)
+[Produtos](./site-bootstrap-main/produtos.html)
 
-[JS](../site-bootstrap-main/site-bootstrap-main/bootstrap.js)
+[JS](./site-bootstrap-main/bootstrap.js)
 
-[CSS](../site-bootstrap-main/site-bootstrap-main/css.css)
+[CSS](./site-bootstrap-main/css.css)
