@@ -10,7 +10,7 @@
 
 [Equipe](./site-bootstrap-main/equipe.html)
 
-[Laçamentos-2023](../site-bootstrap-main/site-bootstrap-main/lançamentos.html)
+[Laçamentos-2023](./site-bootstrap-main/lançamentos.html)
 
 [Produtos](./site-bootstrap-main/produtos.html)
 
