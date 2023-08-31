@@ -30,7 +30,7 @@ Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](L
 
 [Logo](./site-bootstrap-main/logo/Logo%20Magrinhos.png)
 
-[Index](./site-bootstrap-main/bootstrap.html)
+[Index](./site-bootstrap-main/index.html)
 
 [Contatos](./site-bootstrap-main/contate-nos.html)
 
