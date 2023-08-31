@@ -1,31 +1,75 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Italianno & family= Kaushan+Script & family= Marck+Script & display=swap');
+|/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body{
-     background-color: rgb(250, 250, 250); 
-     text-align: center;
+/* Estilos gerais */
+body {
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
-#index h1 {
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(65, 74, 149);
     text-align: center;
 }
-#index h2{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font: arial;
-}
-#index h4{
-    color:rgb(65, 74, 149);
-    text-align: center;
+
+h4 {
     font-family: 'Marck Script', cursive;
 }
-#index h5{
-    color:white;
-    font: arial;
+
+h5, h6 {
+    color: white;
 }
-#index h6{
-    color: black;
-    font: arial;
+
+p {
+    text-align: center;
 }
+
+a {
+    color: rgb(65, 74, 149);
+    text-decoration: underline;
+}
+
+/* Estilos de card */
+
+/* Navbar */
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-brand {
+    color: rgb(250, 197, 81);
+}
+
+/* Botões */
+.btn-custom-reset, .btn-custom-submit {
+    background-color: rgb(65, 74, 149);
+    color: white;
+}
+
+/* Paginação */
+.pagination .page-link, .pagination .page-item.active .page-link {
+    color: rgb(65, 74, 149);
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Imagens de fundo */
 .full-width-image {
     background-image: url('./Magrinhos/WhatsApp Image 2023-06-14 at 00.41.02.png');
     background-size: cover;
@@ -33,11 +77,51 @@ body{
     width: 100%;
     height: 100vh;
 }
+
 .second-image {
     width: 100%;
-    height: top;
+    height: auto;
     margin: 20px;
 }
+
+/* Páginas específicas */
+#index h2, #lancamento h2, #produto h2, #historia h2, #equipe h2, #contato h2 {
+    font-family: Arial, sans-serif;
+}
+
+#index h4, #lancamento h4, #produto h4, #historia h4, #equipe h4, #contato h4 {
+    font-family: 'Marck Script', cursive;
+}
+
+#produto h1, #historia h1, #equipe h1, #contato h1 {
+    text-align: center;
+}
+
+#produto h3, #equipe h3, #contato h3 {
+    font-family: Arial, sans-serif;
+}
+
+#produto h6 {
+    color: white;
+}
+
+/* Outros ajustes de páginas específicas aqui... */
+
+/* Formulário */
+#formulario {
+    color: rgb(65, 74, 149);
+}
+
+.form-group {
+    color: rgb(65, 74, 149);
+}
+
+/* Links de endereço */
+.endereco-link {
+    text-decoration: underline;
+}
+
+/* Estilos específicos de carrossel */
 .meu-carrossel .carousel-item img {
     max-width: 1200px;
     max-height: 600px;
@@ -46,235 +130,3 @@ body{
     margin: 0 auto;
     display: block;
 }
-#index p{
-    font: arial;
-    text-align: center;
-}
-
-.custom-card-header {
-    background-color:rgb(65, 74, 149) ;
-    text-align: center;
-    color:white;
-    font: arial;
-}
-.navbar-custom {
-    background-color:black ;
-    
-}
-.navbar-custom .navbar-nav .nav-link {
-    color:  white;
-    font:arial;
-}
-
-.navbar-custom .navbar-brand {
-    font: arial;
-    color: rgb(250, 197, 81) ;
-}
-.card {
-    border-color:rgb(65, 74, 149) ; /* Change to the desired border color */
-    text-align: center;
-}
-label[for="name"] {
-    color:rgb(65, 74, 149) ;
-}
-    
-label[for="email"] {
-    color:rgb(65, 74, 149);
-}
-    
-label[for="message"] {
-    color:rgb(65, 74, 149);
-} 
-.pagination .page-link {
-   color:rgb(65, 74, 149);
-}
-  
-.pagination .page-item.active .page-link {
-   
-    color:rgb(65, 74, 149);
-}
-  
-footer {
-    background-color:black; 
-    color: white;
-
-}
-footer.row {
-    margin-top: 10px; 
-}
-
-#index h5{
-    color: white;
-}
-#index h6{
-    color: white;
-}
-#lancamento body{
-    background-color: rgb(250, 250, 250); 
-}
-#lancamento h1{ 
-    text-align: center;
-    color: rgb(250, 197, 81);
-}
-#lancamento h2{
-    color:rgb(65, 74, 149);
-    text-align: center;
-}
-#lancamento h4{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-}
-#lancamento h5{
-    color:white;
-    text-align: center;
-    font :arial;
-}
-#lancamento p{
-    text-align: center;
-    font: arial;
-}
-  
-.pagination .page-link {
-    color:rgb(65, 74, 149);
- }
-   
-.pagination .page-item.active .page-link {
-    
-     color: rgb(65, 74, 149);
- }
-
-#produto h1{
-    text-align: center;
-   
-}
-#produto h2, h3{
-    text-align: center;
-    font: arial;
-    color:rgb(65, 74, 149);
-}
-#produto h4{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-}
-#produto h6{
-    color: white;
-}
-#produto p{
-    text-align: center;
-    font: arial;
-}
-.pagination .page-link {
-    color:rgb(65, 74, 149);
- }
-   
-.pagination .page-item.active .page-link {
-     color: rgb(65, 74, 149);
- }
-#historia h1{
-    text-align: center;
-    
-}
-#historia h4{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-}
-#historia h3{
-    color:rgb(65, 74, 149);
-    font:arial;
-}
-#historia h5{
-    color:white; 
-    font:arial;
-}
-#historia p{
-    font-family: arial;
-    text-align: center;
-   
-}
-#equipe h1{
-    text-align: center;
-}
-#equipe h2{
-    text-align: center;
-    color:rgb(65, 74, 149);
-    font:arial;
-}
-#equipe h3{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font: arial;
-}
-#equipe  h4{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-}
-#equipe p{
-    text-align: justify center;
-    font: arial;
-}
-#contato h1{
-    text-align: center;
-    
-}
-#contato h4{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-    
-}
-#contato h3{
-    color:rgb(65, 74, 149);
-    text-align: center;
-    font: arial;
-}
-#contato h5{
-    color:white;
-    text-align: center;
-    font: arial;
-}
-#contato p{
-    text-align: justify center;
-    font: arial;
-}
-#formulario {
-    color:rgb(65, 74, 149);
-}
-
-.form-group{
-    color:  rgb(65, 74, 149);
-}
-.endereco-link {
-    color: rgb(65, 74, 149);
-    text-decoration: underline;
-    text-align: center;
-}
-.d-gridgap-2{
-    background-color:  rgb(250, 197, 81); 
-    color:rgb(65, 74, 149);
-}
-
-.btn-custom-reset {
-    background-color:  rgb(65, 74, 149);
-    color:white ;
-}
-
-.btn-custom-submit {
-    background-color: rgb(65, 74, 149);
-    color: white ;
-}
-.pagination .page-link {
-    color:rgb(65, 74, 149);
- }
-   
-.pagination .page-item.active .page-link {
-    
-     color: rgb(65, 74, 149);
- }
-
-
-  /* font-family: 'Marck Script', cursive;*/
- 
