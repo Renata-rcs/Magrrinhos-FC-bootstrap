@@ -21,12 +21,7 @@ Este site foi desenvolvido utilizando o Bootstrap, aproveitando os recursos de l
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias no design ou no código, sinta-se à vontade para criar um pull request.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
-
-
+---
 
 [Logo](./site-bootstrap-main/logo/Logo%20Magrinhos.png)
 
